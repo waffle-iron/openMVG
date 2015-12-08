@@ -9,6 +9,7 @@
 #include <openMVG/voctree/database.hpp>
 #include <openMVG/voctree/vocabulary_tree.hpp>
 #include <openMVG/voctree/databaseIO.hpp>
+#include <openMVG/logger.hpp>
 
 #include <Eigen/Core>
 
@@ -21,8 +22,6 @@
 #include <set>
 #include <chrono>
 
-#define POPART_COUT(x) std::cout << x << std::endl
-#define POPART_CERR(x) std::cerr << x << std::endl
 
 static const int DIMENSION = 128;
 
