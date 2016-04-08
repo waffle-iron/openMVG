@@ -1,3 +1,5 @@
+#define WANTS_POPART_COUT
+
 #include <openMVG/localization/VoctreeLocalizer.hpp>
 #if HAVE_CCTAG
 #include <openMVG/localization/CCTagLocalizer.hpp>
